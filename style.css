@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(./img/background.png);
+    background-size: cover;
+    margin: 60px;
+    margin-bottom: 20px;
+}
+
+
+header{
+    font-size: 1.5vw;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    -xpedu-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+.filme{
+    margin-inline-end: 40px;
+}
+.personagens{
+    margin-inline-end: 40px;
+}
+.galeria{
+    margin-inline-start: 40px;
+}
+.noticias{ 
+    margin-inline-start: 40px;
+}
+
+
+main{
+    display: grid;
+    display: flex;
+    justify-content: space-between;
+}
+/* display flex */
+
+.text_main{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 70px;
+}
+
+
+.logo{
+    width:30vw;
+}
+
+
+p{
+    padding: 30px;
+    padding-left: 0;
+}
+
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.youtube{
+    margin-bottom: 30px;
+    width: 2.5vw;
+}
+
+
+.twitter{
+    margin-bottom: 30px;
+    width: 2.5vw;
+}
+
+
+.instagram{
+    margin-bottom: 30px;
+    width: 2.5vw;
+}
+
+
+.facebook{
+    width: 1.5vw;
+}
+
+
+footer{
+    margin-top:20px;
+}
+
+
+.trailer1{
+    margin-inline-end: 40px;
+    height: 10vw;
+}
+
+
+.trailer2{
+    margin-inline-end: 40px;
+    height: 10vw;
+}
+
+
+
+.special{
+    height: 10vw;
+}
